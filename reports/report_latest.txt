@@ -1,0 +1,362 @@
+[SYSTEM INFO]
+user: balwinder
+id: uid=1000(balwinder) gid=1002(balwinder) groups=1002(balwinder),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),106(netdev),120(bluetooth),126(lpadmin),130(scanner),1000(docker),1001(autologin)
+kernel: Linux parrot 6.12.32-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.32-1parrot1 (2025-06-27) x86_64 GNU/Linux
+os_release: PRETTY_NAME="Parrot Security 6.4 (lorikeet)"
+NAME="Parrot Security"
+VERSION_ID="6.4"
+VERSION="6.4 (lorikeet)"
+VERSION_CODENAME=lory
+ID=debian
+HOME_URL="https://www.parrotsec.org/"
+SUPPORT_URL="https://www.parrotsec.org/community/"
+BUG_REPORT_URL="https://gitlab.com/parrotsec/"
+path: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+[SUID_SGID]
+/usr/bin/chage (chage) Risk: Low
+/usr/bin/chfn (chfn) Risk: Low
+/usr/bin/chsh (chsh) Risk: Low
+/usr/bin/crontab (crontab) Risk: Low
+/usr/bin/dotlockfile (dotlockfile) Risk: Low
+/usr/bin/expiry (expiry) Risk: Low
+/usr/bin/fusermount3 (fusermount3) Risk: Low
+/usr/bin/gpasswd (gpasswd) Risk: Low
+/usr/bin/mount (mount) Risk: Low
+/usr/bin/newgidmap (newgidmap) Risk: Low
+/usr/bin/newgrp (newgrp) Risk: Low
+/usr/bin/newuidmap (newuidmap) Risk: Low
+/usr/bin/ntfs-3g (ntfs-3g) Risk: Low
+/usr/bin/passwd (passwd) Risk: Low
+/usr/bin/pkexec (pkexec) Risk: Low
+/usr/bin/su (su) Risk: Low
+/usr/bin/sudo (sudo) Risk: Low
+/usr/bin/umount (umount) Risk: Low
+/usr/bin/vmware-user-suid-wrapper (vmware-user-suid-wrapper) Risk: Low
+/usr/bin/ssh-agent (ssh-agent) Risk: Low
+/usr/lib/chromium/chrome-sandbox (chrome-sandbox) Risk: Low
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper (dbus-daemon-launch-helper) Risk: Low
+/usr/lib/openssh/ssh-keysign (ssh-keysign) Risk: Low
+/usr/lib/polkit-1/polkit-agent-helper-1 (polkit-agent-helper-1) Risk: Low
+/usr/lib/w3m/w3mimgdisplay (w3mimgdisplay) Risk: Low
+/usr/lib/x86_64-linux-gnu/utempter/utempter (utempter) Risk: Low
+/usr/lib/xorg/Xorg.wrap (Xorg.wrap) Risk: Low
+/usr/local/share/fonts (fonts) Risk: Low
+/usr/sbin/pppd (pppd) Risk: Low
+/usr/sbin/unix_chkpwd (unix_chkpwd) Risk: Low
+/usr/sbin/exim4 (exim4) Risk: Low
+/usr/share/codium/chrome-sandbox (chrome-sandbox) Risk: Low
+/usr/share/ppd/custom (custom) Risk: Low
+
+[PERMISSIONS_CRITICAL]
+-rw-r--r-- 1 root root   2969 Jan 14 15:52 /etc/passwd
+-rw-r----- 1 root shadow 1354 Jan 14 15:52 /etc/shadow
+
+[PERMISSIONS_WORLD_WRITABLE]
+/home/balwinder/.BurpSuite/UserConfigCommunity.json
+/home/balwinder/.BurpSuite/WorkspaceConfigCommunity.json
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sync Data/LevelDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sync Data/LevelDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sync Data/LevelDB/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sync Data/LevelDB/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sync Data/LevelDB/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/History
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/History-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/ServerCertificate
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/ServerCertificate-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cache/Cache_Data/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cache/Cache_Data/sqldb
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cache/No_Vary_Search/snapshot.baf
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cache/No_Vary_Search/journal.baj
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shared Dictionary/cache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shared Dictionary/cache/index-dir/the-real-index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shared Dictionary/db
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shared Dictionary/db-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Affiliation Database
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Affiliation Database-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/js/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/js/index-dir/the-real-index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/js/d4d0abcb692b2d15_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/js/3838db8906168195_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/wasm/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Code Cache/wasm/index-dir/the-real-index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/ClientCertificates/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/ClientCertificates/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Site Characteristics Database/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Site Characteristics Database/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Site Characteristics Database/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Site Characteristics Database/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Site Characteristics Database/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/power_bookmarks/PowerBookmarks.db
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/power_bookmarks/PowerBookmarks.db-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Favicons
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Favicons-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/discounts_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/discounts_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/commerce_subscription_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/commerce_subscription_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/chrome_cart_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/chrome_cart_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/discount_infos_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/discount_infos_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/parcel_tracking_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/parcel_tracking_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SegmentInfoDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SegmentInfoDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SignalDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SignalDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/PersistentOriginTrials/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/PersistentOriginTrials/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Storage/leveldb/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Storage/leveldb/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Storage/leveldb/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Storage/leveldb/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Storage/leveldb/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Rules/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Rules/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Rules/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Rules/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Rules/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sessions/Session_13414066190691562
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Sessions/Tabs_13414066249133767
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Scripts/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Scripts/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Scripts/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Scripts/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension Scripts/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Top Sites
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Top Sites-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GPUCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GPUCache/data_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GPUCache/data_1
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GPUCache/data_2
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GPUCache/data_3
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnWebGPUCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnWebGPUCache/data_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnWebGPUCache/data_1
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnWebGPUCache/data_2
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnWebGPUCache/data_3
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnGraphiteCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnGraphiteCache/data_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnGraphiteCache/data_1
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnGraphiteCache/data_2
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DawnGraphiteCache/data_3
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Session Storage/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Session Storage/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Session Storage/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Session Storage/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Session Storage/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/metadata/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/metadata/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/metadata/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/metadata/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/metadata/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/shared_proto_db/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/WebStorage/QuotaManager
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/WebStorage/QuotaManager-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Trust Tokens
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Safe Browsing Cookies
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Trust Tokens-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Safe Browsing Cookies-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/index-dir/the-real-index
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/4cb013792b196a35_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/f1cdccba37924bda_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/Database/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/Database/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/Database/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/Database/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Service Worker/Database/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/SCT Auditing Pending Reports
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension State/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension State/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension State/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension State/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Extension State/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Reporting and NEL
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Reporting and NEL-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Extension Settings/afgcjgelplklmhiakcgnhamjheplhppf/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Extension Settings/afgcjgelplklmhiakcgnhamjheplhppf/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Extension Settings/afgcjgelplklmhiakcgnhamjheplhppf/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Extension Settings/afgcjgelplklmhiakcgnhamjheplhppf/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Local Extension Settings/afgcjgelplklmhiakcgnhamjheplhppf/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Secure Preferences
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Network Action Predictor
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DataSharing/DataSharingDB
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DataSharing/DataSharingDB-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Network Action Predictor-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Collaboration/MessageDB
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Collaboration/MessageDB-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/heavy_ad_intervention_opt_out.db
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/heavy_ad_intervention_opt_out.db-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Download Service/EntryDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Download Service/EntryDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shortcuts
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Shortcuts-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/DIPS
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BookmarkMergedSurfaceOrdering
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/optimization_guide_hint_cache_store/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/optimization_guide_hint_cache_store/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/AutofillStrikeDatabase/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/AutofillStrikeDatabase/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/PreferredApps
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BudgetDatabase/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BudgetDatabase/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BrowsingTopicsSiteData
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BrowsingTopicsSiteData-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/Encryption/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/Encryption/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/Encryption/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/Encryption/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/Encryption/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/MANIFEST-000001
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/CURRENT
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/GCM Store/000003.log
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Feature Engagement Tracker/EventDB/LOG
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Feature Engagement Tracker/EventDB/LOCK
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Web Data
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Login Data
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Login Data-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cookies
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Login Data For Account
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Login Data For Account-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Cookies-journal
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Account Web Data
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/SharedStorage
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/BrowsingTopicsState
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Preferences
+/home/balwinder/.BurpSuite/pre-wired-browser/Default/Network Persistent State
+/home/balwinder/.BurpSuite/pre-wired-browser/Variations
+/home/balwinder/.BurpSuite/pre-wired-browser/component_crx_cache/metadata.json
+/home/balwinder/.BurpSuite/pre-wired-browser/ShaderCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/ShaderCache/data_0
+/home/balwinder/.BurpSuite/pre-wired-browser/ShaderCache/data_1
+/home/balwinder/.BurpSuite/pre-wired-browser/ShaderCache/data_2
+/home/balwinder/.BurpSuite/pre-wired-browser/ShaderCache/data_3
+/home/balwinder/.BurpSuite/pre-wired-browser/Last Version
+/home/balwinder/.BurpSuite/pre-wired-browser/segmentation_platform/ukm_db
+/home/balwinder/.BurpSuite/pre-wired-browser/segmentation_platform/ukm_db-wal
+/home/balwinder/.BurpSuite/pre-wired-browser/GrShaderCache/index
+/home/balwinder/.BurpSuite/pre-wired-browser/GrShaderCache/data_0
+/home/balwinder/.BurpSuite/pre-wired-browser/GrShaderCache/data_1
+
+[CRON]
+
+----- crontab -l -----
+
+no crontab for balwinder
+
+----- cat /etc/crontab -----
+
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *	* * *	root	cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; }
+47 6	* * 7	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.weekly; }
+52 6	1 * *	root	test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.monthly; }
+#
+
+----- ls -la /etc/cron.hourly /etc/cron.daily /etc/cron.weekly /etc/cron.monthly 2>/dev/null -----
+
+/etc/cron.daily:
+total 52
+drwxr-xr-x 1 root root  172 Jan 14 22:32 .
+drwxr-xr-x 1 root root 5766 Feb  5 22:00 ..
+-rwxr-xr-x 1 root root  311 Jan 10  2023 0anacron
+-rwxr-xr-x 1 root root  539 Sep 28  2024 apache2
+-rwxr-xr-x 1 root root 1478 Mey 25  2023 apt-compat
+-rwxr-xr-x 1 root root  123 Sep  1  2023 dpkg
+-rwxr-xr-x 1 root root 4722 Jon 17  2024 exim4-base
+-rwxr-xr-x 1 root root  358 Feb 11  2023 lighttpd
+-rwxr-xr-x 1 root root  377 Des 14  2022 logrotate
+-rwxr-xr-x 1 root root 1395 Mar 13  2023 man-db
+-rwxr-xr-x 1 root root  622 Feb 24  2023 mdadm
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+-rwxr-xr-x 1 root root  518 Des  5  2022 sysstat
+
+/etc/cron.hourly:
+total 8
+drwxr-xr-x 1 root root   24 Jol  2  2025 .
+drwxr-xr-x 1 root root 5766 Feb  5 22:00 ..
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.monthly:
+total 12
+drwxr-xr-x 1 root root   40 Jol  2  2025 .
+drwxr-xr-x 1 root root 5766 Feb  5 22:00 ..
+-rwxr-xr-x 1 root root  313 Jan 10  2023 0anacron
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+
+/etc/cron.weekly:
+total 20
+drwxr-xr-x 1 root root   58 Jol  2  2025 .
+drwxr-xr-x 1 root root 5766 Feb  5 22:00 ..
+-rwxr-xr-x 1 root root  312 Jan 10  2023 0anacron
+-rwxr-xr-x 1 root root 1055 Mar 13  2023 man-db
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+-rwxr-xr-x 1 root root  322 Nov 14  2023 tor
+
+----- ls -la /etc/cron.d 2>/dev/null -----
+
+total 40
+drwxr-xr-x 1 root root  132 Jol  2  2025 .
+drwxr-xr-x 1 root root 5766 Feb  5 22:00 ..
+-rw-r--r-- 1 root root  285 Jan 10  2023 anacron
+-rw-r--r-- 1 root root  188 Jon 22  2025 e2scrub_all
+-rw-r--r-- 1 root root  331 Jan  9  2021 geoipupdate
+-rw-r--r-- 1 root root  607 Nov  9  2022 john
+-rw-r--r-- 1 root root  589 Feb 24  2023 mdadm
+-rw-r--r-- 1 root root  140 Jan 17  2023 ntpsec
+-rw-r--r-- 1 root root  712 Jol 13  2022 php
+-rw-r--r-- 1 root root  102 Mar  2  2023 .placeholder
+-rw-r--r-- 1 root root  396 Des  5  2022 sysstat
+
+----- ls -la /var/spool/cron /var/spool/cron/crontabs 2>/dev/null -----
+
+/var/spool/cron:
+total 0
+drwxr-xr-x 1 root root    16 Jol  2  2025 .
+drwxr-xr-x 1 root root    70 Jol  2  2025 ..
+drwx-wx--T 1 root crontab  0 Mar  2  2023 crontabs
+
+[SUDO]
+Matching Defaults entries for balwinder on parrot:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin, use_pty
+
+User balwinder may run the following commands on parrot:
+    (ALL : ALL) ALL
+    (ALL) ALL
+
+[KERNEL]
+Kernel version: 6.12.32-amd64
+Tip: Search online for known privilege escalation CVEs for this kernel,
+for example: "Linux kernel 6.12.32-amd64 privilege escalation".
